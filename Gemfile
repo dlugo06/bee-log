@@ -41,11 +41,11 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 group :development do 
 	# Use sqlite3 as the database for Active Record
 	gem 'sqlite3'
-
 end
 
 group :production do 
 	# Use postgress as the database for Heroku
 	gem 'pg'
-	
+	# Use Heroku Rails Assets Handler
+	gem 'rails_12factor' 	
 end
