@@ -46,6 +46,6 @@ end
 
 group :production do 
 	# Use postgress as the database for Heroku
-	gem 'pgsql'
+	gem 'pg'
 	
 end
